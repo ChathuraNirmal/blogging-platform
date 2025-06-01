@@ -1,5 +1,6 @@
 package com.icet.clothify.dto;
 
+import jakarta.persistence.Column;
 import lombok.*;
 
 import java.util.Date;

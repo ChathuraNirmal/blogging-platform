@@ -2,4 +2,4 @@ spring:
   datasource:
     username : root
     password : 2007
-    url : jdbc:mysql://localhost:3307/lms_crud
+    url : jdbc:mysql://localhost:3307/tech_blog

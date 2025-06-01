@@ -6,4 +6,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public interface BlogRepository extends JpaRepository<BlogEntity,Long> {
+
+    BlogEntity findTopByOrderByIdDesc();
+
 }

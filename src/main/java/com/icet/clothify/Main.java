@@ -13,11 +13,3 @@ public class Main {
 
     }
 }
-
-
-
-
-
-        git branch -M main
-        git remote add origin https://github.com/ChathuraNirmal/blogging-platform.git
-        git push -u origin main
