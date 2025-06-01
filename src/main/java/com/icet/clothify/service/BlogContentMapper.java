@@ -7,5 +7,4 @@ import org.mapstruct.Mapper;
 public interface BlogContentMapper {
     BlogEntity toEntity(BlogDTO dto);
     BlogDTO toDTO(BlogEntity entity);
-
 }
