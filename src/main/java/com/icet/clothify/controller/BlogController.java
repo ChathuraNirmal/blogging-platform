@@ -18,22 +18,19 @@ public class BlogController {
     @PostMapping("/set-data")
     public void setData(@RequestBody BlogDTO blogDTO) {
 
-        System.out.println("helo");
-
         blogServices.setData(blogDTO);
 
 
     }
+
     @GetMapping("/get-data")
     public ArrayList<BlogDTO> getData() {
 
-        System.out.println(blogServices.getData());
 
         return blogServices.getData();
 
 
     }
-
 
 
 }
